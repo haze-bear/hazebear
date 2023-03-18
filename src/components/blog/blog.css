@@ -1,0 +1,55 @@
+.blog {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 250px;
+
+    margin-top: 10px;
+}
+
+.blog hr {
+    width: 95%;
+}
+
+.blogCardTop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blogCardTop p {
+    align-self: center;
+    margin-right: 10px;
+
+    font-size: 10px;
+}
+
+.blogCardTop h2 {
+    margin-left: 10px;
+}
+
+.blogCardContent {
+    margin: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.blogCardContent p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blogCardContent img {
+    width: 100%;
+}
+
+.imgHolder100 {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+
+    align-self: center;
+    flex-shrink: 0;
+
+    background-color: olivedrab;
+}
