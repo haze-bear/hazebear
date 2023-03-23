@@ -1,0 +1,17 @@
+.NavItem {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.NavItem p {
+    margin: 0px 0px 0px 13px;
+    font-size: 14px;
+} 
+
+.NavItem img {
+    height: 13px;
+    width: 13px;
+    margin-left: 13px;
+}

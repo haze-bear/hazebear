@@ -3,5 +3,16 @@
     border-radius: 5px;
     height: 250px;
 
-    margin-top: 10px;
+    /* Aligns the Nav with Main Blocks - May need a better fix */
+    margin-top: 10px; 
+}
+
+.navTitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav h1 {
+    width: 100%;
+    text-align: center;
 }

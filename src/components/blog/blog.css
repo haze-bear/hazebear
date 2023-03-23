@@ -1,7 +1,7 @@
 .blog {
     border: 1px solid black;
     border-radius: 5px;
-    height: 250px;
+    max-height: 250px;
     padding: 10px;
     margin-top: 10px;
 }
@@ -37,6 +37,7 @@
 
 /* A REALLY DODGY FIX THIS ⚠ !!! WILL NOT SCALE WITH RESPONSIVE !!! ⚠*/
 /* Does not hide overflow properly line clipping occurs at height:100%; and height:90% */
+/* Investigate the use of max-heigh on .blog seems like a fix */
 .blogCardContentText {
     height: 95%;
     display: -webkit-box;
