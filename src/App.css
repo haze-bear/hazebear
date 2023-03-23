@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+
+  font-family: 'Pixel Arial 11';
 }
 
 .container {
@@ -19,7 +21,6 @@
 
 .main {
   width: 770px;
-
   grid-area: main;
   justify-self: center;
 }
@@ -27,7 +28,6 @@
 .aside {
   width: 250px;
   margin-left: 5px;
-
   grid-area: aside;
   justify-self: center;
 }
