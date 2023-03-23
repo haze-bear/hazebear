@@ -1,10 +1,30 @@
 .mainBlock {
     border: 1px solid black;
     border-radius: 5px;
-    height: 250px;
+    min-height: 250px;
     margin-top: 10px;
 }
 
 .mainBlock p {
     padding: 10px;
+    margin: 15px 10px 20px 20px;
 }
+
+.avatarHolder {
+    float: left;
+    margin: 30px 20px 10px 30px ;
+    height: 100px;
+    width: 100px;
+    background: mediumseagreen;
+}
+
+.titleHolder {
+    width: 100%;
+    font-size: 30px;
+}
+
+.titleHolder p {
+    padding: 0;
+    margin: 30px 0px 0px 30px;
+}
+
