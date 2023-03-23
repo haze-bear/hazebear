@@ -4,3 +4,7 @@
     height: 250px;
     margin-top: 10px;
 }
+
+.mainBlock p {
+    padding: 10px;
+}

@@ -1,8 +1,8 @@
 .blog {
     border: 1px solid black;
     border-radius: 5px;
-    /* height: 250px; */
-
+    height: 250px;
+    padding: 10px;
     margin-top: 10px;
 }
 
@@ -12,6 +12,7 @@
 
 .blogCardTop {
     width: 100%;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,24 +20,30 @@
 
 .blogCardTop p {
     align-self: center;
-    margin-right: 10px;
-
+    margin-right: 1.1rem;
     font-size: 10px;
 }
 
 .blogCardTop h2 {
-    margin-left: 10px;
+    margin-left: 1.1rem;
 }
 
 .blogCardContent {
     margin: 10px;
     display: flex;
     flex-flow: row;
+    height: 140px;
 }
 
-.blogCardContent p {
-    overflow: hidden;
+/* A REALLY DODGY FIX THIS ⚠ !!! WILL NOT SCALE WITH RESPONSIVE !!! ⚠*/
+/* Does not hide overflow properly line clipping occurs at height:100%; and height:90% */
+.blogCardContentText {
+    height: 95%;
+    display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .blogCardContent img {

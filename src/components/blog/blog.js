@@ -19,7 +19,7 @@ function Blog(props) {
                 <div className='imgHolder100'>
                 </div>
                 
-                <p>
+                <p className='blogCardContentText'>
                     {/* This will need to be populated from API FETCH to Medium Blog */}
                     {props.Content} 
                 </p>
