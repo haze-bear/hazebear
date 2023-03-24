@@ -1,0 +1,43 @@
+.SkillItemContainer {
+    margin: 10px;
+    min-width: 230px;
+    max-width: 230px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SkillItemBody {
+    margin-left: 20px;
+}
+
+.SkillItemTitle {
+    margin: 0px 0px 10px 0px;
+}
+
+.SkillStarted {
+    font-size: 10px;
+    font-style: italic;
+    color: lightslategray;
+    margin: 3px 0px 0px 0px;
+    float: right;
+}
+
+.SkillProgressBar {
+    width: 150px;
+    height: 12px;
+    background-color: grey;
+}
+
+.SkillProgress {
+    width: 75%;
+    background-color: powderblue;
+    height: 12px;
+}
+
+.SkillImagePH {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+}
