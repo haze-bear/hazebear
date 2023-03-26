@@ -1,0 +1,34 @@
+{
+    "d": [
+        {
+            "Name": "HMTL/CSS",
+            "Start": "2017",
+            "Style": "{width: 90%; background-color: powderblue;}" 
+        },
+        {
+            "Name": "JavaScript",
+            "Start": "2017",
+            "Style": "{width: 80%; background-color: powderblue;}" 
+        },
+        {
+            "Name": "React",
+            "Start": "2019",
+            "Style": "{width: 65%; background-color: powderblue;}" 
+        },
+        {
+            "Name": "AdobeSuite",
+            "Start": "2015",
+            "Style": "{width: 90%; background-color: powderblue;}"
+        },
+        {
+            "Name": "HMTL/CSS",
+            "Start": "2017",
+            "Style": "{width: 75%; background-color: powderblue;}" 
+        },
+        {
+            "Name": "HMTL/CSS",
+            "Start": "2017",
+            "Style": "{width: 75%; background-color: powderblue;}" 
+        }
+    ]
+}
