@@ -4,5 +4,14 @@
     align-self: center;
     justify-self: center;
   
+    margin-top: 25px;
     margin-bottom: 25px;
+
+    font-family: DigiBop-Italic;
+    font-size: 36px;
+    text-shadow: 4px -4px 0px #ffb108,
+      8px -8px 0px #ff7daf, 
+      12px -12px 0px #9585f1,
+      16px -16px 0px #4097ea,
+      20px -20px 0px #55b67d;
   }

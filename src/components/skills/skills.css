@@ -1,6 +1,7 @@
 .skillsContainer {
-    border: 1px solid black;
+    border: 5px double #ffb108;
     border-radius: 5px;
+    background-color: #001027;
     margin-top: 10px;
     padding-bottom: 20px;
 }

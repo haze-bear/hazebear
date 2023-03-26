@@ -1,15 +1,22 @@
 .nav {
-    border: 1px solid black;
+    border: 5px double #ffb108;
     border-radius: 5px;
-    height: 250px;
-
+    background-color: #001027;
+    height: 250px ;
     /* Aligns the Nav with Main Blocks - May need a better fix */
     margin-top: 10px; 
 }
 
 .navTitle {
-    font-size: 24px;
+    font-family: DigiBop-Italic;
+    font-size: 26px;
     text-align: center;
+
+    text-shadow: 2px 0px 0px #ffb108,
+    4px 0px 0px #ff7daf, 
+    6px 0px 0px #9585f1,
+    8px 0px 0px #4097ea,
+    10px 0px 0px #55b67d;
 }
 
 .nav h1 {

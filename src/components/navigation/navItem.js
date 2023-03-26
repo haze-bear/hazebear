@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './navItem.css'
 
-import bullet from '../../img/bullettemp.gif'
+import bullet from '../../img/bullettemp.png'
 
 function NavItem(props) {
     return (
