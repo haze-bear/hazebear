@@ -1,0 +1,5 @@
+.projectsContainer {
+    width: 100%;
+    grid-area: main;
+    height: 520px;
+}

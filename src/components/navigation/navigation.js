@@ -10,8 +10,8 @@ function Nav() {
             <p className='navTitle'>[navigation]</p>
             <NavItem linkD="home" name="home"></NavItem>
             <NavItem linkD="about" name="about"></NavItem>
-            <NavItem name="link 3"></NavItem>
-            <NavItem name="link 4"></NavItem>
+            <NavItem linkD="projects" name="projects"></NavItem>
+            <NavItem linkD="art" name="art"></NavItem>
             <NavItem name="link 5"></NavItem>
             <NavItem name="link 6"></NavItem>
         </div>
