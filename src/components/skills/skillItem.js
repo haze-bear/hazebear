@@ -10,12 +10,12 @@ function SkillItem(props) {
             </div>
 
             <div className='SkillItemBody'>
-                <p className='SkillItemTitle'>HTML</p>
+                <p className='SkillItemTitle'>{props.Name}</p>
                 <div className='SkillProgressBar'>
-                    <div className='SkillProgress'>
+                    <div className='SkillProgress' style={props.CStyle}>
                     </div>
                 </div>
-                <p className='SkillStarted'>Skill Started: 2019</p>
+                <p className='SkillStarted'>Skill Started: {props.Start}</p>
             </div>
         </div>
     )

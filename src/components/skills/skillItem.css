@@ -19,7 +19,7 @@
 .SkillStarted {
     font-size: 10px;
     font-style: italic;
-    color: lightslategray;
+    color: lightgray;
     margin: 3px 0px 0px 0px;
     float: right;
 }
@@ -27,17 +27,41 @@
 .SkillProgressBar {
     width: 150px;
     height: 12px;
+    background-image: url('../../img/progressbar_bg_glass.png');
+    image-rendering: pixelated;
+    background-repeat: repeat-x;
     background-color: grey;
+    animation: progressBarAnimation 500s linear infinite;
 }
 
 .SkillProgress {
-    width: 75%;
-    background-color: powderblue;
+    width: 60%;
     height: 12px;
+    background-image: url('../../img/progressbar_arrow.png');
+    background-repeat: repeat-x;
+    image-rendering: pixelated;
+    animation: progressBarAnimation 200s linear infinite;
+    /* box-shadow: inset -3px 0px 5px 0px #2d3136,
+    3px 0px 5px 0px #2d3136; */
+    box-shadow: inset -3px 0px 3px 0px #88d6ff,
+    3px 0px 3px 0px #88d6ff;
+
 }
 
 .SkillImagePH {
     background-color: pink;
     height: 50px;
     width: 50px;
+}
+
+
+@keyframes progressBarAnimation {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000% 0;
+    }
+
 }

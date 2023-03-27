@@ -16,6 +16,7 @@
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url('./img/galaxybg.png');
+  image-rendering: pixelated;
   color: #f0f8ff;
 }
 
@@ -43,4 +44,12 @@
   margin-left: 5px;
   grid-area: aside;
   justify-self: center;
+}
+
+.block {
+  border: 5px double #ffb108;
+  border-radius: 5px;
+  background-color: #001027;
+  min-height: 250px;
+  margin-top: 10px;
 }

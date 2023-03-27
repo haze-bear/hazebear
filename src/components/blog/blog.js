@@ -2,6 +2,9 @@ import React from 'react'
 import './blog.css'
 
 // Turn into the class component. To FETCH on load.
+// Break into sub component BLOGITEM
+// Wrap in Route Container
+// Blog Container will load the Fetch
 
 function Blog(props) {
     return (
