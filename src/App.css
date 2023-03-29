@@ -34,9 +34,8 @@
 }
 
 .main {
-  width: 770px;
+  width: 100%;
   grid-area: main;
-  justify-self: center;
 }
 
 .aside {
@@ -51,5 +50,4 @@
   border-radius: 5px;
   background-color: #001027;
   min-height: 250px;
-  margin-top: 10px;
 }

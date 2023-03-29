@@ -3,7 +3,7 @@ import './mainBlock.css'
 
 function MainBlock() {
     return (
-        <div className='mainBlock'>
+        <div className='mainBlock block'>
             <div className='titleHolder'>
                 <p>Welcome to my site!</p>
             </div>

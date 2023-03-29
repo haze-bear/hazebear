@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import { Outlet } from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
 import './App.css';
 
 // Components
+import Home from './components/home/home';
+import Projects from './components/projects/projects';
+import About from './components/about/about';
+import Art from './components/art/art';
+
 import Header from './components/header/header'
 import AsideBlock from './components/asideBlock/asideBlock'
 import Nav from './components/navigation/navigation'
@@ -24,7 +29,14 @@ class App extends Component {
 
         <Header />
         
-        <Outlet />
+        {/* <Outlet /> */}
+
+        <Routes>
+          <Route index path='/home' element={<Home />}/>
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/art' element={<Art />} />
+        </Routes>
 
         {/* 
         Aside RIGHT - Contains Navigation, Site Stats, And other links 

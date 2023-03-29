@@ -1,0 +1,4 @@
+.currentProjects {
+    display: flex;
+    flex-flow: row;
+}

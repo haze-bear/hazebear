@@ -3,9 +3,12 @@
     grid-area: header;
     align-self: center;
     justify-self: center;
-  
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 275px;
+    max-height: 275px;
 
     font-family: DigiBop-Italic;
     font-size: 36px;

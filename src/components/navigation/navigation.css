@@ -3,8 +3,6 @@
     border-radius: 5px;
     background-color: #001027;
     height: 250px ;
-    /* Aligns the Nav with Main Blocks - May need a better fix */
-    margin-top: 10px; 
 }
 
 .navTitle {
