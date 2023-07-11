@@ -13,42 +13,42 @@ import reportWebVitals from './reportWebVitals';
 import ErrorPage from './components/errorPages/errorPage';
 
 import {
-  createBrowserRouter,
-  RouterProvider,
-  Navigate,
+  BrowserRouter
 } from "react-router-dom";
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "home",
-        element:  <Home/>,
-      },
-      {
-        path: "about",
-        element: <About />,
-      },
-      {
-        path: "projects",
-        element: <Projects />,
-      },
-      {
-        path: "art",
-        element: <Art />,
-      },
-    ],
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App/>,
+//     errorElement: <ErrorPage />,
+//     children: [
+//       {
+//         path: "home",
+//         element:  <Home/>,
+//       },
+//       {
+//         path: "about",
+//         element: <About />,
+//       },
+//       {
+//         path: "projects",
+//         element: <Projects />,
+//       },
+//       {
+//         path: "art",
+//         element: <Art />,
+//       },
+//     ],
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

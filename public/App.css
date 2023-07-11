@@ -1,0 +1,53 @@
+@font-face {
+  font-family: DigiBop-Regular;
+  src: url('./font/DigiBop-Regular.woff') format('woff'),
+       url('./font/DigiBop-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: DigiBop-Italic;
+  src: url('./font/DigiBop-Italic.woff') format('woff'),
+       url('./font/DigiBop-Italic.woff2') format('woff2');
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('./img/cloudybg.png');
+  image-rendering: pixelated;
+  color: #f0f8ff;
+}
+
+.container {
+  width: 1050px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 0.5fr 1fr 1fr 1fr; 
+  gap: 10px 23px; 
+  grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "main main main aside"; 
+}
+
+.main {
+  width: 100%;
+  grid-area: main;
+}
+
+.aside {
+  width: 250px;
+  margin-left: 5px;
+  grid-area: aside;
+  justify-self: center;
+}
+
+.block {
+  border: 5px double #ffb108;
+  border-radius: 5px;
+  background-color: #001027;
+  min-height: 250px;
+}
